@@ -1,0 +1,96 @@
+/* === General styles === */
+body {
+  margin: 0;
+  font-family: 'Georgia', serif;
+  color: #d62b2b;
+  background-color: #fae3e1;
+  text-align: center;
+}
+
+/* === Landing page === */
+.landing .brand {
+  font-size: 1.2rem;
+  margin-top: 20px;
+  color: #d62b2b;
+}
+
+.landing .title {
+  font-size: 4rem;
+  margin-top: 100px;
+  margin-bottom: 20px;
+  color: #d62b2b;
+}
+
+.landing .subtitle {
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin: 0 auto 40px;
+  color: #b82525;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.btn {
+  background-color: #d62b2b;
+  color: #fff;
+  padding: 10px 25px;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: 0.2s;
+  border: none;
+  font-size: 1rem;
+}
+
+.btn:hover {
+  background-color: #a91919;
+}
+
+/* === Auth pages === */
+.auth-page {
+  background-color: #fae3e1;
+  color: #d62b2b;
+  font-family: 'Georgia', serif;
+}
+
+.auth-box {
+  background: #fff;
+  max-width: 320px;
+  margin: 100px auto;
+  padding: 40px 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.auth-box h2 {
+  margin-bottom: 20px;
+  color: #d62b2b;
+}
+
+.auth-box form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.auth-box input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.back-link {
+  display: inline-block;
+  margin: 20px;
+  text-decoration: none;
+  color: #d62b2b;
+  font-weight: bold;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
